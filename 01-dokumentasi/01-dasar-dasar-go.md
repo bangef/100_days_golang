@@ -253,8 +253,6 @@ go mod init belajar-golang-dasar
   }
   ```
 
-  
-
 - Eksekusi program dan output
   
   ```bash
@@ -262,7 +260,6 @@ go mod init belajar-golang-dasar
   Satu: 1
   Dua: 2
   Tiga Koma Lima: 3.5
-  
   ```
 
 ### Tipe Data Boolean
@@ -385,22 +382,22 @@ go mod init belajar-golang-dasar
   
   func main(){
       var name string // deklarasi
-      
+  
       name = "Bangef" // inisialisasi
       fmt.Println(name)
-      
+  
       name = "Ficri Hanip"
       fmt.Println(name)
-      
+  
       // ADAPUN APABILA INGIN LANGSUNG DEKLARASI 
       // SEKALIGUS INISIALISASI DAPAT DILAKUKAN SEPERTI INI
       var age int = 20;
       fmt.Println("Umur saya: ", age)
   
-  	// APABILA TIDAK MENYERTAKAN TIPE DATANYA PUN TIDAK MENJADIKAN ERROR
-  	// KONDISI INI BERLAKU APABILA VARIBLE LANGSUNG DI DEKLARASI DAN INISILISASI VALUENYA
-  	var height = 170
-  	fmt.Println("Tinggi saya: ", height)
+      // APABILA TIDAK MENYERTAKAN TIPE DATANYA PUN TIDAK MENJADIKAN ERROR
+      // KONDISI INI BERLAKU APABILA VARIBLE LANGSUNG DI DEKLARASI DAN INISILISASI VALUENYA
+      var height = 170
+      fmt.Println("Tinggi saya: ", height)
   }
   ```
 
@@ -426,28 +423,28 @@ go mod init belajar-golang-dasar
   import "fmt"
   
   func main(){
-  	var name string
+      var name string
   
-  	name = "Bangef"
-  	fmt.Println(name)
-  	
-  	name = "Ficri Hanip"
-  	fmt.Println(name)
-  	
-  	// ADAPUN APABILA INGIN LANGSUNG INISIALISASI 
-  	// SEKALIGUS DEKLARASI DAPAT DILAKUKAN SEPERTI INI
-  	var age int = 20
-  	fmt.Println("Umur saya: ", age)
-  	
-  	// APABILA TIDAK MENYERTAKAN TIPE DATANYA PUN TIDAK MENJADIKAN ERROR
-  	// KONDISI INI BERLAKU APABILA VARIBLE LANGSUNG DI INSILISASI DAN DEKLARASI VALUENYA
-  	var height = 170
-  	fmt.Println("Tinggi saya: ", height)
-  	
-  	// APABIALA TIDAK MENGINSIALISASI TIPE DATANYA MAKA AKAN TERJADI ERROR
-  	var weight
-  	weight = 70
-  	fmt.Println("Berat massa saya: ", weight)
+      name = "Bangef"
+      fmt.Println(name)
+  
+      name = "Ficri Hanip"
+      fmt.Println(name)
+  
+      // ADAPUN APABILA INGIN LANGSUNG INISIALISASI 
+      // SEKALIGUS DEKLARASI DAPAT DILAKUKAN SEPERTI INI
+      var age int = 20
+      fmt.Println("Umur saya: ", age)
+  
+      // APABILA TIDAK MENYERTAKAN TIPE DATANYA PUN TIDAK MENJADIKAN ERROR
+      // KONDISI INI BERLAKU APABILA VARIBLE LANGSUNG DI INSILISASI DAN DEKLARASI VALUENYA
+      var height = 170
+      fmt.Println("Tinggi saya: ", height)
+  
+      // APABIALA TIDAK MENGINSIALISASI TIPE DATANYA MAKA AKAN TERJADI ERROR
+      var weight
+      weight = 70
+      fmt.Println("Berat massa saya: ", weight)
   }
   ```
   
@@ -464,27 +461,27 @@ go mod init belajar-golang-dasar
   import "fmt"
   
   func main(){
-  	var name string
+      var name string
   
-  	name = "Bangef"
-  	fmt.Println(name)
-  	
-  	name = "Ficri Hanip"
-  	fmt.Println(name)
-  	
-  	// ADAPUN APABILA INGIN LANGSUNG INISIALISASI 
-  	// SEKALIGUS DEKLARASI DAPAT DILAKUKAN SEPERTI INI
-  	var age int = 20
-  	fmt.Println("Umur saya: ", age)
-  	
-  	// APABILA TIDAK MENYERTAKAN TIPE DATANYA PUN TIDAK MENJADIKAN ERROR
-  	// KONDISI INI BERLAKU APABILA VARIBLE LANGSUNG DI INSILISASI DAN DEKLARASI VALUENYA
-  	var height = 170
-  	fmt.Println("Tinggi saya: ", height)
+      name = "Bangef"
+      fmt.Println(name)
   
-  	// APABILA VARIABLE TIDAK DIGUNAKAN
-  	var weigth int
-  	weigth = 70
+      name = "Ficri Hanip"
+      fmt.Println(name)
+  
+      // ADAPUN APABILA INGIN LANGSUNG INISIALISASI 
+      // SEKALIGUS DEKLARASI DAPAT DILAKUKAN SEPERTI INI
+      var age int = 20
+      fmt.Println("Umur saya: ", age)
+  
+      // APABILA TIDAK MENYERTAKAN TIPE DATANYA PUN TIDAK MENJADIKAN ERROR
+      // KONDISI INI BERLAKU APABILA VARIBLE LANGSUNG DI INSILISASI DAN DEKLARASI VALUENYA
+      var height = 170
+      fmt.Println("Tinggi saya: ", height)
+  
+      // APABILA VARIABLE TIDAK DIGUNAKAN
+      var weigth int
+      weigth = 70
   }
   ```
   
@@ -512,17 +509,17 @@ go mod init belajar-golang-dasar
   
   func main(){
   
-  	// REFACTORING UNTUK MENGGANTIKAN KATA KUNCI VAR DENGAN ":="
-  	// DAPAT DILAKUKAN HANYA SAAT PENDEKLARASIAN DAN INISILISASI VRAIBLE
-  	name := "Bangef"
-  	age := 20
-  	height := 170
+      // REFACTORING UNTUK MENGGANTIKAN KATA KUNCI VAR DENGAN ":="
+      // DAPAT DILAKUKAN HANYA SAAT PENDEKLARASIAN DAN INISILISASI VRAIBLE
+      name := "Bangef"
+      age := 20
+      height := 170
   
-  	fmt.Println(name)
-  	name = "Ficri Hanip"
-  	fmt.Println(name)
-  	fmt.Println("Umur saya: ", age)
-  	fmt.Println("Tinggi saya: ", height)
+      fmt.Println(name)
+      name = "Ficri Hanip"
+      fmt.Println(name)
+      fmt.Println("Umur saya: ", age)
+      fmt.Println("Tinggi saya: ", height)
   }
   ```
 
@@ -551,15 +548,15 @@ go mod init belajar-golang-dasar
   
       var (
           name = "Bangef"
-  	    age = 20
-  	    height = 170
+          age = 20
+          height = 170
       )
   
-  	fmt.Println(name)
-  	name = "Ficri Hanip"
-  	fmt.Println(name)
-  	fmt.Println("Umur saya: ", age)
-  	fmt.Println("Tinggi saya: ", height)
+      fmt.Println(name)
+      name = "Ficri Hanip"
+      fmt.Println(name)
+      fmt.Println("Umur saya: ", age)
+      fmt.Println("Tinggi saya: ", height)
   ```
 
 ## Constant
@@ -618,9 +615,273 @@ go mod init belajar-golang-dasar
   
       const (
           name = "Bangef"
-  	    name2 = "Bangef 2"
+          name2 = "Bangef 2"
       )
       fmt.Println(name)
       fmt.Println(name2)
   }
+  ```
+
+## Konversi Tipe Data
+
+- Di golang kadang dibutuhkan untuk konversi tipe data dari satu tiper ke tipe lain.
+
+- Misal ingin mengkonversi tipe data int32 ke int64, dan lain-lain.
+
+- Untuk mengkonversi tipe data di golang, kita dapat menggunakan nama tipe data lalu `()` *kurung buka dan kurung tutup* contohnya: `int64(nilai_yang_ingin_dikonversi)`.
+
+### Menampilkan output konversi tipe data
+
+- Buat file `konversi.go`, lalu tuliskan perintah dibawah ini:
+  
+  ```go
+  package main
+  
+  import "fmt"
+  import "reflect" // ADALAH PAKET UNTUK MEMERIKSA DATA SECARA DINAMIS PADA SAAT RUNTIME
+  
+  func main(){
+  	var(
+  		nilai32 int32 = 32768
+  		nilai64 int64 = int64(nilai32)
+  		nilai16 int16 = int16(nilai32)
+  
+  		name string = "BAba"
+  		e = name[0]
+  		eString = string(e)
+  	)
+  
+  	fmt.Println(nilai32)
+  	fmt.Println(nilai64)
+  	fmt.Println(nilai16)
+  	fmt.Println(name)
+  	// AKAN MENAMPILKAN TIPE DATA BYTE ATAU ALIAS DARI unit8
+  	fmt.Println(e, ", dengan tipe data:", reflect.TypeOf(e))
+  	fmt.Println(eString)
+  }
+  ```
+
+- Eksekusi program dan outputnya:
+  
+  ```bash
+  go run konversi.go
+  32768
+  32768
+  -32768
+  BAba
+  66 , dengan tipe data: uint8
+  B
+  ```
+
+### Number Overflow
+
+- Nilai yang tidak sesuai akan jangkauannya, maka akan kembali ke jangkauan paling bawahnya.
+  
+  ```go
+  package main
+  
+  import "fmt"
+  
+  func main(){
+   	var(
+  		nilai32 int32 = 32768
+  		nilai64 int64 = int64(nilai32)
+  		nilai16 int16 = int16(nilai32)
+  	)
+      
+      fmt.Println(nilai32)
+      fmt.Println(nilai64)
+      fmt.Println(nilai16)
+  }
+  ```
+
+- Eksekusi program dan outputnya:
+  
+  ```bash
+  go run konversi.go
+  32768
+  32768
+  -32768
+  ```
+
+## Type Declaration
+
+- Type Declaration adalah kemampuan membuat ulang tipe data baru dari tipe dara yang sudah ada.
+
+- Type Declaration biasanya digunakan untuk membuat alias terhadap tipe data yang sudah ada dengan tujuan agar lebih mudah dimengerti.
+
+### Menampilakan Type Declaration
+
+- Buat file `type_declaration.go`, dan tuliskan perintah berikut:
+  
+  ```go
+  package main
+  
+  import (
+  	"fmt"
+  	"reflect"
+  )
+  
+  func main(){
+  	// INI ADALAH ALIAS ATAU NAMA LAIN DARI TIPE DATA STRING
+      type NoKtp string
+  
+  	var ktpBangef NoKtp = "111111111"
+  
+  	fmt.Println(ktpBangef, "tipe data:", reflect.TypeOf(ktpBangef))
+  	// KONVERSI DARI TIPE DATA STRING KE NoKtp
+  	fmt.Println(NoKtp("22222222"), "tipe data:", reflect.TypeOf(NoKtp("22222222")));
+  }
+  ```
+
+- Eksekusi program dan outputnya:
+  
+  ```bash
+  go run type_declaration.go
+  111111111 tipe data: main.NoKtp
+  22222222 tipe data: main.NoKtp
+  ```
+
+## Operasi
+
+### Operasi Matematika
+
+- Sama halnya dengan bahasa pemrograman lain
+  
+  | Operator | Keterangan     |
+  | -------- | -------------- |
+  | +        | Penjumlahan    |
+  | -        | Pengurangan    |
+  | *        | Perkalian      |
+  | /        | Pembagian      |
+  | %        | Sisa Pembagian |
+
+#### Menampilkan Operasi Matematika
+
+- Buat file `operand_math.go`, lalu tuliskan perintah:
+  
+  ```go
+  package main
+  
+  import (
+  	"fmt"
+  	"math/rand" // PAKET UNTUK MENDAPATKAN RANDOM NUMBER 
+  )
+  
+  func main(){
+  	var(
+  		a int = rand.Intn(50) // UNTUK GENERATE RANDOM INT
+  		b int = rand.Intn(50)
+  		c int = rand.Intn(50)
+  		d int = rand.Intn(50)
+  		result int
+  	)
+  
+  	fmt.Println("All Data: a =>",a, ", b =>", b, ", c =>", c, ", d =>", d)
+  	result = a + b * c - d
+  	fmt.Println("Formula: a + b * c - d, Hasilnya:", result)
+  }
+  ```
+
+- Eksekusi program dan outputnya:
+  
+  ```bash
+  go run operand_math.go
+  All Data: a => 5 , b => 7 , c => 41 , d => 19
+  Formula: a + b * c - d, Hasilnya: 273
+  ```
+
+### Operasi *Augmented Assignments*
+
+- Adalah operasi yang dilakukan ke dirinya sendiri
+  
+  | Operasi Matemetika | Augmented Assignments |
+  | ------------------ | --------------------- |
+  | a = a + 10         | a += 10               |
+  | a = a - 10         | a -= 10               |
+  | a = a * 10         | a *= 10               |
+  | a = a / 10         | a /= 10               |
+  | a = a % 10         | a %= 10               |
+
+#### Menampilkan Augmented Assignments
+
+- Buat file `operand_augmented_assignment.go`, lalu tuliskan perintah:
+  
+  ```go
+  package main
+  
+  import (
+  	"fmt"
+  )
+  
+  func main(){
+  	a := 100
+  	fmt.Println(a)
+  	a += 20
+  	fmt.Println(a)
+  	a -= 20
+  	fmt.Println(a)
+  	a *= 20
+  	fmt.Println(a)
+  	a /= 20
+  	fmt.Println(a)
+  	a %= 3
+  	fmt.Println(a)
+  }
+  ```
+
+- Eksekusi program dan outputnya:
+  
+  ```bash
+  go run operand_augmented_assignment.go
+  100
+  120
+  100
+  2000
+  100
+  1
+  ```
+
+### Operasi *Unary*
+
+- Adalah operasi yang hanya memiliki satu operator saja.
+  
+  | Operator | Keterangan        |
+  | -------- | ----------------- |
+  | ++       | a = a + 1         |
+  | --       | a = a - 1         |
+  | -        | Negative          |
+  | +        | Positive          |
+  | !        | Boolean kebalikan |
+
+#### Menampilkan Operasi *Unary*
+
+- Buat file `operand_unary.go`, lalu tuliskan perintah:
+  
+  ```go
+  package main
+  
+  import (
+  	"fmt"
+  )
+  
+  func main(){
+  	i := 1
+  	fmt.Println(i)
+  	i++
+  	fmt.Println(i)
+  	i++
+  	i++
+  	i++
+  	fmt.Println(i)
+  }
+  ```
+
+- Eksekusi program dan outputnya:
+  
+  ```bash
+  go run operand_unary.go 
+  1
+  2
+  5
   ```
